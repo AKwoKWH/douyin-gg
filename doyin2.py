@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup
 import requests
-from urlparse import urlparse, parse_qs
+from urllib.parse import urlparse, parse_qs
 import urllib
 import urllib2
 import json
