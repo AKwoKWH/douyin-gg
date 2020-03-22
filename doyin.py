@@ -181,6 +181,7 @@ def formatNum(s):
 
 def getUserAll(shared_url):
     profile = getUserInfo(shared_url, **HEADERS)
+    print('profile',profile)
     if profile:
         profile['realAddress'] = getRealAddress(shared_url))
         videos = getUserVideos(getRealAddress(shared_url))
