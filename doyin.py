@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+# encoding=utf8  
 try: 
     from BeautifulSoup import BeautifulSoup
 except ImportError:
